@@ -4,6 +4,8 @@
   "description": "A browserify boilerplate with watchify for quick web app development",
   "main": "index.js",
   "scripts": {
+    "postinstall": "./node_modules/.bin/gulp build",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
