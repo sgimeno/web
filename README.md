@@ -8,19 +8,14 @@ Introduction to browserify
 >source env.sh
 ```
 
-####Build
-
-```
->gulp build
-```
 
 ####Gulp tasks
 
  + `clean`: deletes the `dist` directory
- + `build`: browserify bundle and HTML copy to `dist` directory
+ + `build`: builds the app using `js` and `html` tasks
+  + `js`: browserify bundle
+  + `html`: copy HTML files to `dist`
  + `watch`: watch HTML & JS files with watchify
- + `js`: browserify JS bundle
- + `html`: copy HTML files to `dist`
 
 
 ####TODO:
