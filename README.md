@@ -23,6 +23,10 @@ Introduction to browserify
  + `html`: copy HTML files to `dist`
 
 
+####TODO:
+
+ + Add tests
+ + Improve gulp build code
 
 ####References
 
