@@ -1,0 +1,7 @@
+{
+  "name": "Node.js Sample",
+  "description": "A barebones Node.js app using Express 4 for the backend and browserify in the front",
+  "repository": "https://github.com/sgimeno/browserify-boilerplate",
+  "logo": "https://d21ii91i3y6o6h.cloudfront.net/gallery_images/from_proof/1647/small/1405586570/browserify-2-hexagon-sticker.png",
+  "keywords": ["node", "express", "static"]
+}
