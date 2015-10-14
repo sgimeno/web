@@ -4,6 +4,8 @@ Browserify quick start-up
  The repo is prepared to accelerate SPA development. Ready to code JS with browserify & gulp as packaging tools
  and ready to deploy to Heroku
 
+ [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sgimeno/browserify-boilerplate/tree/master)
+
 ####Setup
 
 ```
