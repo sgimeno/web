@@ -1,5 +1,8 @@
-Introduction to browserify
-==========================
+Browserify quick start-up
+=========================
+
+ The repo is prepared to accelerate SPA development. Ready to code JS with browserify & gulp as packaging tools
+ and ready to deploy to Heroku
 
 ####Setup
 
@@ -8,6 +11,12 @@ Introduction to browserify
 >source env.sh
 ```
 
+####NPM commands
+```
+> npm run dev # starts the development server (Connect) & watches sources
+> npm run build # build the application
+> npm start # starts production server (Express)
+```
 
 ####Gulp tasks
 

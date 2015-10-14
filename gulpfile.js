@@ -10,6 +10,7 @@ var buffer = require('vinyl-buffer');
 var sourcemaps = require('gulp-sourcemaps');
 var assign = require('lodash.assign');
 var livereload = require('gulp-livereload');
+var connect = require('gulp-connect');
 
 /*
 	A more sophisticated browserify build & watch
@@ -21,6 +22,13 @@ var customOpts = {
   entries: ['./src/index.js'],
   debug: true
 };
+
+gulp.task('connect', function() {
+  connect.server({
+    root: './dist',
+    port: process.env.PORT || 5000
+  });
+});
 
 
 // you can run `gulp js` to build the file
@@ -96,3 +104,5 @@ gulp.task('watch', ['watchify'], function() {
 });
 
 gulp.task('build', ['html', 'js']);
+
+gulp.task('default', ['connect', 'watch']);
