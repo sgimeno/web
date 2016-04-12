@@ -10,7 +10,6 @@ Browserify quick start-up
 
 ```
 >npm install
->source env.sh
 ```
 
 ####NPM commands
@@ -20,19 +19,10 @@ Browserify quick start-up
 > npm start # starts production server (Express)
 ```
 
-####Gulp tasks
-
- + `clean`: deletes the `dist` directory
- + `build`: builds the app using `js` and `html` tasks
-  + `js`: browserify bundle
-  + `html`: copy HTML files to `dist`
- + `watch`: watch HTML & JS files with watchify
-
-
 ####TODO:
 
- + Add tests
- + Improve gulp build code
+ + Add test tasks
+ + Import bootstrap from SASS, use custom styles
 
 ####References
 
