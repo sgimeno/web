@@ -9,7 +9,7 @@
     "dev": "gulp dev",
     "serve": "npm run build -s && node index.js",
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape ./test/unit/{**,**/**}.js"
   },
   "keywords": [
     "browserify"
@@ -36,6 +36,7 @@
     "gulp-uglify": "^1.5.3",
     "gulp-util": "^3.0.7",
     "run-sequence": "^1.1.5",
+    "tape": "^4.6.3",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.7.0"
