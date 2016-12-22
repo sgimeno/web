@@ -11,6 +11,12 @@ Browserify quick start-up
 ```
 >npm install
 ```
+#### Test
+
+To run unit tests
+
+`$ npm test`
+
 
 ####NPM commands
 ```
@@ -19,12 +25,8 @@ Browserify quick start-up
 > npm start # starts production server (Express)
 ```
 
-####TODO:
-
- + Add test tasks
- + Import bootstrap from SASS, use custom styles
-
 ####References
 
  + [browserify](http://browserify.org/)
+ + [tape](https://github.com/substack/tape)
  + [Gulp + browserify](http://viget.com/extend/gulp-browserify-starter-faq)
