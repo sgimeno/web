@@ -5,8 +5,8 @@ sudo: false
 notifications:
   email: false
 script:
-  - ./node_modules/.bin/standard
-  - ./node_modules/.bin/tape test
+  - npm run codestyle
+  - npm test
 cache:
   directories:
     - node_modules
