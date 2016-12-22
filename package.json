@@ -7,6 +7,7 @@
     "build": "gulp prod",
     "postinstall": "npm run build -s",
     "dev": "gulp dev",
+    "serve": "npm run build -s && node index.js",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
