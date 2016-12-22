@@ -1,11 +1,11 @@
-'use strict';
+'use strict'
 
-var config = require('../config');
-var gulp   = require('gulp');
-// var jshint = require('gulp-jshint');
+var config = require('../config')
+var gulp = require('gulp')
+var jshint = require('gulp-jshint')
 
-gulp.task('lint', function() {
+gulp.task('lint', function () {
   return gulp.src([config.scripts.src, '!src/app/templates.js'])
     .pipe(jshint())
-    .pipe(jshint.reporter('jshint-stylish'));
-});
+    .pipe(jshint.reporter('jshint-stylish'))
+})

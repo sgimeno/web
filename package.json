@@ -3,10 +3,16 @@
   "version": "0.0.1",
   "description": "A browserify boilerplate with watchify for quick web app development",
   "main": "index.js",
+  "config": {
+    "ghooks": {
+      "pre-push": "npm run codestyle"
+    }
+  },
   "scripts": {
     "build": "gulp prod",
-    "postinstall": "npm run build -s",
+    "codestyle": "standard",
     "dev": "gulp dev",
+    "postinstall": "npm run build -s",
     "serve": "npm run build -s && node index.js",
     "start": "node index.js",
     "test": "tape ./test/unit/{**,**/**}.js"
@@ -36,6 +42,7 @@
     "gulp-uglify": "^1.5.3",
     "gulp-util": "^3.0.7",
     "run-sequence": "^1.1.5",
+    "standard": "^8.6.0",
     "tape": "^4.6.3",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
