@@ -1,3 +1,5 @@
-var Application = require('./modules/application');
+var Application = require('./modules/application')
 
-var app = new Application();
+var app = new Application()
+
+app.run()

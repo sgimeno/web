@@ -1,4 +1,4 @@
-var PACKAGE = require('../package.json');
+var PACKAGE = require('../package.json')
 
 module.exports = {
 
@@ -14,19 +14,19 @@ module.exports = {
   ' */\n',
 
   assetExtensions: [
-      'js',
-      'json',
-      'css',
-      'png',
-      'jpe?g',
-      'gif',
-      'svg',
-      'eot',
-      'otf',
-      'ttc',
-      'ttf',
-      'woff2?'
-    ],
+    'js',
+    'json',
+    'css',
+    'png',
+    'jpe?g',
+    'gif',
+    'svg',
+    'eot',
+    'otf',
+    'ttc',
+    'ttf',
+    'woff2?'
+  ],
 
   scripts: {
     src: './src/**/*.js',
@@ -84,12 +84,12 @@ module.exports = {
   sourceDir: './src/',
   buildDir: './dist/',
 
-  init: function() {
+  init: function () {
     this.views.watch = [
       this.views.index,
       this.views.src
-    ];
+    ]
 
-    return this;
+    return this
   }
-}.init();
+}.init()

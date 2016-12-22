@@ -1,12 +1,10 @@
-'use strict';
+'use strict'
 
-var gulp        = require('gulp');
-var runSequence = require('run-sequence');
+var gulp = require('gulp')
+var runSequence = require('run-sequence')
 
-gulp.task('dev', ['clean'], function(cb) {
+gulp.task('dev', ['clean'], function (cb) {
+  global.isProd = false
 
-  global.isProd = false;
-
-  runSequence(['styles', 'images', 'json', 'fonts', 'views', 'browserify'], 'watch', cb);
-
-});
+  runSequence(['styles', 'images', 'json', 'fonts', 'views', 'browserify'], 'watch', cb)
+})
