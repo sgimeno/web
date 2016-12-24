@@ -8,3 +8,10 @@ test('Application is a function', assert => {
   assert.equal(typeof actual, 'object', 'new App() should return an object')
   assert.end()
 })
+
+test('Application has a run method', assert => {
+  const actual = new App()
+
+  assert.equal(typeof actual.run, 'function', 'App.run should be a function')
+  assert.end()
+})
