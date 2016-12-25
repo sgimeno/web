@@ -8,23 +8,40 @@ Browserify quick start-up
  and ready to deploy to Heroku
 
 
-####Setup
+Install NodeJS and then
+
+#### Getting started
 
 ```
->npm install
+$ npm install
+$ npm run dev
 ```
+
 #### Test
 
 To run unit tests
 
-`$ npm test`
-
-
-####NPM commands
 ```
-> npm run dev # starts the development server (Connect) & watches sources
-> npm run build # build the application
-> npm start # starts production server (Express)
+$ npm test
+```
+
+#### Production server
+
+The repo comes with a separated production-ready server powered by Express
+
+```
+$ npm serve
+OR
+$ npm run build
+$ node index.js
+```
+
+
+#### NPM commands
+```
+$ npm run dev # starts the development server (Connect) & watches sources
+$ npm run build # build the application
+$ npm start # starts production server (Express)
 ```
 
 ####References
