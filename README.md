@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/sgimeno/browserify-boilerplate.svg?branch=master)](https://travis-ci.org/sgimeno/browserify-boilerplate)
-&nbsp;[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sgimeno/browserify-boilerplate/tree/master)
+&nbsp;[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sgimeno/browserify-boilerplate/tree/master) [![Greenkeeper badge](https://badges.greenkeeper.io/sgimeno/browserify-boilerplate.svg)](https://greenkeeper.io/)
 
 Browserify quick start-up
 =========================
